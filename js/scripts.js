@@ -29,13 +29,13 @@ $(document).ready(function() {
     if (homeless === "sorry") {
       $("#homeless1").show();
       $("#checkphone").show();
-      
+      $("#first-text").show();
     } else if (homeless === "jerk") {
       $("#homeless2").show();
     } else if (homeless === "sure") {
       $("#homeless3").show();
       $("#checkphone").show();
-
+      $("#first-text").show();
     }
   });
   $("form#first-text").submit(function(event) {
