@@ -39,12 +39,22 @@ $(document).ready(function() {
     }
   });
   $("#text-one").submit(function(event) {
-    event.preventDefault();
+
+    //  event.preventDefault();
+
     $("#first-text").show();
     var firstText = $("input:radio[name=first]:checked").val();
+    console.log(firstText);
     if (firstText === "fleek") {
-      {""}
+      $("#first-message-results").show();
+    } else if (firstText === "zizek") {
+      $("#philosophy-message").show();
+    } else if (firstText === "what-movie") {
+      $("#movie-message").show();
+    }  else if (firstText === "what-music") {
+      $("#music-message").show();
     }
 
+      });
+
   });
-});
