@@ -38,21 +38,24 @@ $(document).ready(function() {
       $("#first-text").show();
     }
   });
-  $("#text-one").submit(function(event) {
+  $("form#first-text").submit(function(event) {
 
-    //  event.preventDefault();
+     event.preventDefault();
 
-    $("#first-text").show();
+    $("#first-message-results").show();
     var firstText = $("input:radio[name=first]:checked").val();
-    console.log(firstText);
+
     if (firstText === "fleek") {
-      $("#first-message-results").show();
+      $("#fleek-message").show();
+
     } else if (firstText === "zizek") {
       $("#philosophy-message").show();
     } else if (firstText === "what-movie") {
       $("#movie-message").show();
+      $("#movie-reply").show();
     }  else if (firstText === "what-music") {
       $("#music-message").show();
+      $("#music-reply").show();
     }
 
       });

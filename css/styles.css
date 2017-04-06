@@ -69,3 +69,9 @@ body {
 #music-message {
   display: none;
 }
+#music-reply {
+  display: none;
+}
+#movie-reply {
+  display: none;
+}
