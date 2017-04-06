@@ -4,118 +4,29 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet"  type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
-<<<<<<< 637894f59297229bd007ed55171fb4b5625da79a
-    <script src="js/jquery.js"></script>
-=======
     <script src="js/jquery-3.2.0.js"></script>
->>>>>>> finished jquery and js, established html and css design scheme
     <script src="js/scripts.js"></script>
 
     <title>It All Happened With One Swipe...</title>
   </head>
   <body>
-<<<<<<< 637894f59297229bd007ed55171fb4b5625da79a
+
 
     <! -- Basic layout of style and design// -->
 
-      <div class="container">
-          <div class="jumbotron">
-      <h1>It All Happened With One Swipe...</h1>
-          </div>
-      <div id="intro">
-        <p>You wake one morning to the sound of a familiar ring. It’s your phone notifying you that you have a new match on Tinder! You check to see who it could be. There are actually four new matches, you shrug it off and proceed to have breakfast. There is no need to get too excited it’s only Tinder.
-        Breakfast is way more important anyway because you are very hungry. What do you want to make?
-        </p>
-        <form id="matches">
-          <div class="radio">
-=======
+
     <div class="container">
       <div class="jumbotron" id="top">
         <h1>It All Happened With One Swipe...</h1>
       </div>
       <br>
       <div id="intro">
-        <h4>You wake one morning to the sound of a familiar ring. Its your phone notifying you that you have a new match on Tinder! You check to see who it could be.  After checking,  you proceed to have breakfast, there is no need to get too excited its only Tinder.  Breakfast is way more important anyway because you are very hungry. What do you want to make.</h4>
-<!-- This is where the date options are provided -->
-        <!-- <form id="matches"> -->
-          <!-- <div class="radio">
->>>>>>> finished jquery and js, established html and css design scheme
-            <label>
-              <input type="radio" name="matches" value="Chris">
+        <h4>You wake one morning to the sound of a familiar ring. Its your phone notifying you that you have a new match on Tinder! You check to see who it could be.  After checking,  you proceed to have breakfast, there is no need to get too excited its only Tinder.  Breakfast is way more important anyway because you are very hungry. What do you want to make?</h4>
 
-                You decide to have the leftover fish sandwich in the fridge that you got at the new fish and chip cart downtown a few days ago.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="matches" value="Pat">
-              You want to make a nice eggs benedict, it’s your favorite.
-            </label>
-          </div> -->
-          <!-- <div class="radio">
-            <label>
-              <input type="radio" name="matches" value="Sam">
-<<<<<<< 637894f59297229bd007ed55171fb4b5625da79a
-              You decide to have fruity pebbles and read the box as you watch the morning news about Trumps first 75 days in office.
-=======
-              Sam - is interested.
->>>>>>> finished jquery and js, established html and css design scheme
-            </label>
-          </div> -->
-          <!-- <div class="radio">
-            <label>
-              <input type="radio" name="matches" value="Jesse">
-              Or you want to use the new multivitamin powder you got at that very persuasive over energetic sales person who stopped you at Costco and make a nice healthy smoothie.
-            </label>
-<<<<<<< 637894f59297229bd007ed55171fb4b5625da79a
-          </div>
-          <br>
-            <button type="button" class="btn btn-primary" id="button1">Go!</button>
-        </form>
-      </div>
+
       <br>
 
-      <div class="container">
-          <div class="jumbotron" id="death1">
-            <div class="well" id="deathwell1">
-            <h3>	It’s been about an hour after you ate that fish sandwich. You don’t feel so good and you’re having very bad cramps. You look up web md and decide that you have might have food poisoning. After another hour you start throwing up violently, you decide to call the ambulance. They get there just as you take your last breath. </h3>
-            </div>
-          </div>
-
-        </div>
-
-        <h4>That breakfast was delicious you tell yourself. Just the right amount of lemon in the homemade recipe you got from your mom last Christmas. </h4>
-
-        <h4>Your fruity pebbles were a little bit soggy but they tasted just like you remembered from the days you used to watch Saturday morning cartoons. However, instead of cartoons on the tv, it’s now that orange bloated cheeto head Trump systematically destroying everything good in the world.</h4>
-      </form>
-
-
-
-
-
-      */<div id="breakfast">
-        <div class="form-group">
-        <p></p>
-          <input type="checkbox" name="breakfast-choice" value="Leftovers">Leftovers<br>
-          <input type="checkbox" name="breakfast-choice" value="Smoothie">Smoothie<br>
-          <input type="checkbox" name="breakfast-choice" value="EggsBenedict">Eggs Benedict<br>
-        </div>
-        <p>you decide now is a good time to do a little getting-to-know-you with your chosen Tinder match.</p>
-        <form id="topics">
-=======
-          </div> -->
-          <!-- <button type="submit" class="btn btn-primary" id="swipe">Eat Breakfast</button>
-        </form>
-      </div> -->
-<!-- This is where the breakfast options are provided -->
-
-      <br>
-      <div id="breakfastChoice">
-        <h4>There is no need to get too excited its only Tinder.
-        Breakfast is way more important anyway because you are very hungry. What do you want to make?
-      </h4>
         <form id="breakfast">
->>>>>>> finished jquery and js, established html and css design scheme
           <div class="radio">
             <label>
               <input type="radio" name="firstMeal" value="fish">
@@ -176,7 +87,9 @@
       <div class=container id="homelessSituation">
 
         <h4>Right as you stop to admire the Willamette River sparkling in the distance a disheveled man suffering from extreme meth induced psychosis startles you with a venomous snarl. “Hey brother, can you spare some change. I lost my wallet and need to get on the bus."</h4>
-        <h4>You decide to:</h4>
+        <h4>What do you do?</h4>
+
+        <!--This is where the homeless choice gets confirmed-->
         <form id="homelessChoice">
           <div class="radio">
             <label>
@@ -226,36 +139,61 @@
         <h4>Now is the time to message.</h4>
       </div>
       <br>
-    <!--  <form id="first-text">
+      <!--This is where you decide to message-->
+     <form id="first-text">
         <div class="radio">
           <label>
-            <input type="radio" name="text1" value="fleek">
+            <input type="radio" name="first" value="fleek">
             <h4>Hey whats up? What is up with everyone saying fleek now? I dont get it.</h4>
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="text1" value="zizek">
+            <input type="radio" name="first" value="zizek">
               <h4>Thats great you love philosophy! What do you think about Zizeks book The Art of the Ridiculous Sublime: On David Lynch's Lost Highway</h4>
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="text1" value="movie">
+            <input type="radio" name="first" value="what-movie">
               <h4>I am such a movie buff what’s your favorite all time flick?</h4>
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type='radio' name="text1" value="music">
-            <h4>Oh my god, have you read that new article about using data science to find Radio Heads saddest song?</h4>
+            <input type='radio' name="first" value="what-music">
+              <h4>Oh my god, have you read that new article about using data science to find Radio Heads saddest song?</h4>
+          </label>
+
         <br>
-          <button type="submit" class="btn btn-primary" id="homelessButton">Reply!</button>
+          <button type="submit" class="btn btn-primary" id="text-one">Reply!</button>
       </form>
+      <br>
+      <!--This is where the results for the text message are-->
+      <div class="container" id="firstMessageResults">
+        <div class="jumbotron" id="fleek-message" >
+          <div class="well" >
+          <h4>	OMG, is that like some lame attempt at passive aggressiveness? Or are you actually being serious? Like wow! I don’t think this is going to work. For further reference dont ever underestimate anyone because of some generic traits on there Tinder Profile. The END</h4>
+          </div>
+        </div>
+        <div class="jumbotron" id="philosophy-message">
+          <div class="well">
+          <h4>	Actually, I think its an over bloated essay based on minutae that does no good for anyone besides pampering Zizeks already huge ego! Sorry, I dont think this is going to work. Boom! The END!</h4>
+          </div>
+        </div>
+        <div class="jumbotron" id="movie-message">
+          <div class="well">
+          <h4>Omg, I love movies so much. But, this is an easy one for me. I totally love the first Back to the Future, it’s my all-time favorite.  A string of emoticons follow the statement.	</h4>
+          </div>
+        </div>
+        <div class="jumbotron" id="music-message">
+          <div class="well">
+          <h4>	Omg, Radio Head is my favorite band. I love their new album-A Moon Shaped Pool, but I have not read the article. If I would have to guess from just my own expertise on sad songs, I would have to say its True Love Waits?</h4>
+          </div>
+        </div>
+      </div>
+      <br>
 
-
-      <div class="container">
-        <div class="jumbotron" id=""
 
 <!-- This is where more information is requested from your match -->
 

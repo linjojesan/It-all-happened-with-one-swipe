@@ -1,14 +1,9 @@
 body {
-<<<<<<< 637894f59297229bd007ed55171fb4b5625da79a
+
   font-family: 'Alegreya', serif;
 }
 
-#death1 {
-  background-color: black;
-}
-=======
-  font-family: "Alegreya", serif;
-}
+
 
 .jumbotron {
   background-color: black;
@@ -18,9 +13,6 @@ body {
   background-color: #EEEEEE;
 }
 
-/*#breakfastResult {
-  display: none;
-}*/
 
 #fishBreakfast {
   display: none;
@@ -62,4 +54,6 @@ body {
 #checkphone {
   display: none;
 }
->>>>>>> finished jquery and js, established html and css design scheme
+#first-text {
+  display: none;
+}
