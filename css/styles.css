@@ -1,7 +1,65 @@
 body {
+<<<<<<< 637894f59297229bd007ed55171fb4b5625da79a
   font-family: 'Alegreya', serif;
 }
 
 #death1 {
   background-color: black;
 }
+=======
+  font-family: "Alegreya", serif;
+}
+
+.jumbotron {
+  background-color: black;
+}
+
+#top {
+  background-color: #EEEEEE;
+}
+
+/*#breakfastResult {
+  display: none;
+}*/
+
+#fishBreakfast {
+  display: none;
+}
+
+#fivekOne {
+  display: none;
+}
+
+#fivekTwo {
+  display: none;
+}
+
+#fivekThree {
+  display: none;
+}
+
+#matchInfo {
+  display: none;
+}
+
+#homelessSituation {
+  display: none;
+}
+
+#homelessResults {
+  display: none;
+}
+
+#homeless1 {
+  display: none;
+}
+#homeless2 {
+  display: none;
+}
+#homeless3 {
+  display: none;
+}
+#checkphone {
+  display: none;
+}
+>>>>>>> finished jquery and js, established html and css design scheme

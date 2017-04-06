@@ -4,12 +4,17 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet"  type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+<<<<<<< 637894f59297229bd007ed55171fb4b5625da79a
     <script src="js/jquery.js"></script>
+=======
+    <script src="js/jquery-3.2.0.js"></script>
+>>>>>>> finished jquery and js, established html and css design scheme
     <script src="js/scripts.js"></script>
 
     <title>It All Happened With One Swipe...</title>
   </head>
   <body>
+<<<<<<< 637894f59297229bd007ed55171fb4b5625da79a
 
     <! -- Basic layout of style and design// -->
 
@@ -23,6 +28,18 @@
         </p>
         <form id="matches">
           <div class="radio">
+=======
+    <div class="container">
+      <div class="jumbotron" id="top">
+        <h1>It All Happened With One Swipe...</h1>
+      </div>
+      <br>
+      <div id="intro">
+        <h4>You wake one morning to the sound of a familiar ring. Its your phone notifying you that you have a new match on Tinder! You check to see who it could be.  After checking,  you proceed to have breakfast, there is no need to get too excited its only Tinder.  Breakfast is way more important anyway because you are very hungry. What do you want to make.</h4>
+<!-- This is where the date options are provided -->
+        <!-- <form id="matches"> -->
+          <!-- <div class="radio">
+>>>>>>> finished jquery and js, established html and css design scheme
             <label>
               <input type="radio" name="matches" value="Chris">
 
@@ -34,18 +51,23 @@
               <input type="radio" name="matches" value="Pat">
               You want to make a nice eggs benedict, it’s your favorite.
             </label>
-          </div>
-          <div class="radio">
+          </div> -->
+          <!-- <div class="radio">
             <label>
               <input type="radio" name="matches" value="Sam">
+<<<<<<< 637894f59297229bd007ed55171fb4b5625da79a
               You decide to have fruity pebbles and read the box as you watch the morning news about Trumps first 75 days in office.
+=======
+              Sam - is interested.
+>>>>>>> finished jquery and js, established html and css design scheme
             </label>
-          </div>
-          <div class="radio">
+          </div> -->
+          <!-- <div class="radio">
             <label>
               <input type="radio" name="matches" value="Jesse">
               Or you want to use the new multivitamin powder you got at that very persuasive over energetic sales person who stopped you at Costco and make a nice healthy smoothie.
             </label>
+<<<<<<< 637894f59297229bd007ed55171fb4b5625da79a
           </div>
           <br>
             <button type="button" class="btn btn-primary" id="button1">Go!</button>
@@ -80,139 +102,165 @@
         </div>
         <p>you decide now is a good time to do a little getting-to-know-you with your chosen Tinder match.</p>
         <form id="topics">
+=======
+          </div> -->
+          <!-- <button type="submit" class="btn btn-primary" id="swipe">Eat Breakfast</button>
+        </form>
+      </div> -->
+<!-- This is where the breakfast options are provided -->
+
+      <br>
+      <div id="breakfastChoice">
+        <h4>There is no need to get too excited its only Tinder.
+        Breakfast is way more important anyway because you are very hungry. What do you want to make?
+      </h4>
+        <form id="breakfast">
+>>>>>>> finished jquery and js, established html and css design scheme
           <div class="radio">
             <label>
-              <input type="radio" name="topics" value="music">
-              Ask them what music they like.
+              <input type="radio" name="firstMeal" value="fish">
+                <h4>You decide to have the leftover fish sandwich in the fridge that you got at the new fish and chip cart downtown a few days ago.</h4>
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="topics" value="movies">
-              Ask them about their favorite movies.
+              <input type="radio" name="firstMeal" value="eggs">
+              <h4>You want to make a nice eggs benedict, its your favorite.</h4>
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="topics" value="books">
-              Ask them what books they like to read.
+              <input type="radio" name="firstMeal" value="cereal">
+              <h4>You decide to have fruity pebbles and read the box as you watch the morning news about Trumps first 75 days in office.</h4>
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="topics" value="philosophy">
-              Ask them about their personal philosophy.
+              <input type="radio" name="firstMeal" value="smoothie">
+              <h4>Or you want to use the new multivitamin powder you got at that very persuasive over energetic sales person who stopped you at Costco and make a nice healthy smoothie.</h4>
             </label>
           </div>
+          <br>
+            <button type="submit" class="btn btn-primary" id="button1">Eat Breakfast!</button>
         </form>
       </div>
-      <div id="recordstore">
-        <p>You decide to take a trip to the record store to check out the new titles!</p>
-        <p>You have 1 New Message!</p>
-      </div>
-      <div id="watchTV">
-        <p>You decide to sit down and watch an episode or two of your new favorite show.</p>
-        <p>You have 1 New Message!</p>
-      </div>
-      <div id="readabook">
-        <p>You decide to go to the local library and do some reading.</p>
-        <p>You have 1 New Message!</p>
-      </div>
-      <div  id="thinkspot">
-        <p>You decide to go take a walk along the east side esplanade and do some thinking.</p>
-        <p>You have 1 New Message!</p>
-      </div>
-      <div id="lunch">
-        <div class="form-group">
-        <p>You decide to go get yourself some lunch.</p>
-          <input type="checkbox" name="breakfast-choice" value="Burrito">Burrito<br>
-          <input type="checkbox" name="breakfast-choice" value="Bento">Bento<br>
-          <input type="checkbox" name="breakfast-choice" value="SnickersBar">Grab a Snickers<br>
+      <br>
+
+
+<!-- This is where the breakfast choice gets confirmed -->
+      <div class="container" id="breakfastResult">
+        <div class="jumbotron" id="fishBreakfast">
+          <div class="well">
+          <h3>	Its been about an hour after you ate that fish sandwich. You dont feel so good and you are having very bad cramps. You look up web md and decide that you have might have food poisoning. After another hour you start throwing up violently, you decide to call the ambulance. They get there just as you take your last breath. </h3>
+          </div>
         </div>
+        <div class="jumbotron" id="fivekOne">
+          <div class="well">
+          <h3>	That Eggs Benedict was delicious you tell yourself. Just the right amount of lemon in the homemade recipe you got from your mom last Christmas. You decide to go for a quick 5 k run on the Eastbank Esplanade to work off all those extra calories.</h3>
+          </div>
+        </div>
+        <div class="jumbotron" id="fivekTwo">
+          <div class="well">
+          <h3>	Your fruity pebbles were a little bit soggy but they tasted just like you remembered from the days you used to watch Saturday morning cartoons. However, instead of cartoons on the tv, it’s now that orange bloated cheeto head Trump systematically destroying everything good in the world. You decide to go for a run to get your head stra. A nice 5k on the Eastbank Esplenade will do the trick</h3>
+          </div>
+        </div>
+        <div class="jumbotron" id="fivekThree">
+          <div class="well">
+          <h3>	Wow, you really feel a burst of energy come on as you drink the last clumped up remnants of your smoothie. You decide to go take a 5k jog around the Eastbank Esplanade.  </h3>
+          </div>
+        </div>
+      </div>
+      <br>
 
-        <p>There's no better time than now to ask them on a date!</p>
 
-        <form id="dates">
+      <div class=container id="homelessSituation">
+
+        <h4>Right as you stop to admire the Willamette River sparkling in the distance a disheveled man suffering from extreme meth induced psychosis startles you with a venomous snarl. “Hey brother, can you spare some change. I lost my wallet and need to get on the bus."</h4>
+        <h4>You decide to:</h4>
+        <form id="homelessChoice">
           <div class="radio">
             <label>
-              <input type="radio" name="dates" value="music">
-              You look it up and their favorite band just happens to be playing tonight! No way! You buy some tickets and ask if they'd like to go!
+              <input type="radio" name="homelessReply" value="sorry">
+              <h4>Sorry man, I dont have any change on me. I don’t even have pockets. I just am taking a morning jog. I am sure if you ask the bus driver politely and tell them your situation they can help you.</h4>
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="dates" value="movies">
-              You look it up and an awesome new movies by their favorite director is playing at Regal Cinema! No way! You buy some tickets and ask if they'd like to go!
+              <input type="radio" name="homelessReply" value="jerk">
+                <h4>Dude, I am not going to give you any change because you are obviously addicted to meth and if I do that then I am just contributing to your-self destruction and the destruction of society in general.</h4>
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="dates" value="books">
-              You look it up and their favorite author just happens to be doing a book signing at Powell's tonight! No way! You reserve a copy of their book and ask if they'd like to go!
+              <input type="radio" name="homelessReply" value="sure">
+                <h4>Sure man, here is a dollar I hope it helps you get to where ever you need to be.</h4>
             </label>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="dates" value="philosophy">
-              You look it up and their favorite philosopher just happens to be doing a lecture at Reed College! No way! You ask if they'd like to join you!
-            </label>
-          </div>
+          <br>
+            <button type="submit" class="btn btn-primary" id="homelessButton">Reply!</button>
         </form>
       </div>
-      <div id="date">
+      <br>
 
-      </div>
-      <div id="dinner">
-        <div class="form-group">
-          <p>You both had a pretty good time and decide to go grab a bite to eat. You go to:</p>
-          <input type="checkbox" name="breakfast-choice" value="Burger">A Huge Burger<br>
-          <input type="checkbox" name="breakfast-choice" value="FishSpecial">Fish Special<br>
-          <input type="checkbox" name="breakfast-choice" value="PadThai">Pad Thai<br>
+      <div class="container" id="homelessResults">
+        <div class="jumbotron" id="homeless1" >
+          <div class="well" >
+          <h3>	The man just mumbles something incoherently and stumbles off to look for another innocent bystander to listen to his cries for help. You sprint off faster than Hussein Bolt in the 2016 Olympics.</h3>
+          </div>
         </div>
-
-        <form id="drinks">
-          <div class="radio">
-            <label>
-              <input type="radio" name="drinks" value="letsdrink">
-              You're having such a great time with your Tinder date, you both decide to go grab a drink or a few at the nearest watering hole.
-            </label>
+        <div class="jumbotron" id="homeless2">
+          <div class="well">
+          <h3>	Your comment puts the man into a fit of rage. He pulls out a knife and stabs you multiple times.  A nice looking couple  eating matching honey lavender ice cream cones from the new salt and straw suddenly scream in horror as they see the vicious act of violence that is front of them.</h3>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="drinks" value="turnin">
-              You had a pretty alright time, but you mutually decide this isn't going to work out. You awkwardly shake hands and part ways. You end up at the same bus-stop and wait in awkward silence for 10 minutes before you decide to just catch an uber.
-            </label>
+        </div>
+        <div class="jumbotron" id="homeless3">
+          <div class="well">
+          <h3>	The man offers his hand and accepts the change you shudder as you look into his vacant drug addled eyes and sprint away to complete your morning jog.</h3>
           </div>
-        </form>
-        <div class="goodEndings">
-          <div class="Basic">
-            Loveless Marriage
-          </div>
-          <div class="Time-Traveler">
-            Travel to new Time period
-          </div>
-          <div class="Psycho-Killer">
-            Escape alive.
-          </div>
-          <div class="Space-Traveler">
-            Join the space war!
-          </div>
-
-          <div class="BadEndings">
-            <div class="Basic">
-              One Night Stand - identity theft
-            </div>
-            <div class="Time-Traveler">
-              Groundhog Day!!!!! Nooooo!
-            </div>
-            <div class="Psycho-Killer">
-              Get eaten by school children at their cafeteria! Gross!
-            </div>
-            <div class="Space-Traveler">
-              Stay on Earth - Bad guys blow it up!  That sucks!
-            </div>
         </div>
       </div>
-    </div>
+      <br>
+      <div class="container" id="checkphone">
+        <h4>You get home check your fit bit and see that you ran just a little over 5k and decide to take a hot shower.
+        <h4>After a nice shower you decide to check out the new match on Tinder. Wow, there interests are kind of generic: Books, movies, philosophy, music: They also love to laugh, and are always on fleek. You swipe right and look at the familiar prompt saying: closed mouths don’t get fed.</h4>
+        <h4>Now is the time to message.</h4>
+      </div>
+      <br>
+    <!--  <form id="first-text">
+        <div class="radio">
+          <label>
+            <input type="radio" name="text1" value="fleek">
+            <h4>Hey whats up? What is up with everyone saying fleek now? I dont get it.</h4>
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="text1" value="zizek">
+              <h4>Thats great you love philosophy! What do you think about Zizeks book The Art of the Ridiculous Sublime: On David Lynch's Lost Highway</h4>
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="text1" value="movie">
+              <h4>I am such a movie buff what’s your favorite all time flick?</h4>
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type='radio' name="text1" value="music">
+            <h4>Oh my god, have you read that new article about using data science to find Radio Heads saddest song?</h4>
+        <br>
+          <button type="submit" class="btn btn-primary" id="homelessButton">Reply!</button>
+      </form>
+
+
+      <div class="container">
+        <div class="jumbotron" id=""
+
+<!-- This is where more information is requested from your match -->
+
+        </div>
+      </div>
+
   </body>
 </html>
